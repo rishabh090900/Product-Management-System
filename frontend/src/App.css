@@ -1,0 +1,136 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+  
+}
+.nav-ul{
+background-color: skyblue;
+    margin: 0px;
+    padding: 5px;}
+    .nav-ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  background-color: skyblue;
+  width: 100%;
+  text-align: center;
+}
+.register {
+    margin-left: 30%;
+}
+.inputBox{
+  padding: 7px;
+    display: block;
+    border: 1px solid skyblue;
+    width: 300px;
+    margin: 20px;
+
+}
+.appButton{
+  margin: 20px;
+  width: 150px;
+  padding: 10px;
+  background-color: skyblue;
+  border: solid 1px;
+  cursor: pointer;
+}
+.nav-right{
+  text-align: right;
+}
+.logo{
+  
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  float: left;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+.product{
+
+  margin-left: 30%;
+}
+.invalid-input{
+  color: red;
+  margin-top: -20px;
+  margin-left: 20px;
+  display: block;
+
+}
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+
+}
+.product-list ul{
+  margin:0px;
+
+}
+.product-list ul li{
+  text-align: center;
+  display: inline-block;
+  width:150px;
+  border: 1px solid skyblue;
+  padding:5px;
+
+}
+.search-product{
+  width:400px;
+  margin:20px;
+  border:solid skyblue;
+  padding-left:30px;
+height:30px;
+}
+.delete{
+  background-color: skyblue;
+  color: black;
+  border: 0px;
+  margin: 0px 5px;  
+}
+.update{
+
+  text-decoration: none;
+  text-decoration-color: black;
+color: black;
+}
+
